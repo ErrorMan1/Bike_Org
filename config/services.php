@@ -34,5 +34,11 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'line'=>[
+        'redirect_uri' => 'http://localhost:8000/',
+			'client_id' => '1596406680',
+			'client_secret' => '287654b1f431edf1309690a0875ed09f'
+
+    ],
 
 ];

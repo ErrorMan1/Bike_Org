@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
+});
+
+
+Route::get('/line','loginController@login');
+
+Route::get('/logout','loginController@logout');
+
+
+
+Route::get('/profile', function () {
+    return view('profile');
 });
