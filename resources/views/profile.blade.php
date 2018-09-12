@@ -10,6 +10,7 @@ $check_line = isset($_SESSION['line_token']);
 <pre>
     @{{profileData}}
 </pre>
+
 @endsection
 
 @section('vue')
